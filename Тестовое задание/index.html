@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="description" content="Сайт анкета Landing page">
+	<meta name="author" content="">
+	<meta name="keywords" content="сайт, Landing page, Корпоративный сайт">
+    <title>Анкета</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/animate.min.css"
+/>
+  
+  
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="grid3">
+               <a href="#infa"> <div class="menu">Личная информация</div></a>
+               <a href="#opit"> <div class="grid3_blue ml menu">Опыт</div></a>
+                <a href="#js"> <div class="grid3_blue menu">JavaScript </div></a>
+                    <a href="#me"> <div class="grid3_blue menu ">О себе</div></a>
+                    <a href="#openModal1"> <div class="none "><img src="https://img.icons8.com/material-outlined/48/000000/menu--v1.png"/></div></a>
+            </div>
+        </div>
+        <hr>
+    </nav>
+    <div class="container">
+        <h1 id="infa" class="wow slideInRight">Анкета</h1>
+        <img class="mt-5" src="img/icon(1).png">
+        <p class="info mt-2 wow slideInRight">Личная информация</p>
+
+
+       <center> <form class="form wow slideInLeft">
+            <div class="form-item">
+              <input type="text" class="form-input"   value="Матренина Анита Анатольевна"
+              readonly>
+              <label class="form-label">ФИО</label>
+            </div>
+            <div class="select">
+                <input class="select__input" type="hidden" name="">
+                <div class="select__head">Год рождения</div>
+                <ul class="select__list" style="display: none;">
+                    <li class="select__item">1998</li>
+                    <li class="select__item">1999 </li>
+                    <li class="select__item">2000</li>
+                    <li class="select__item">2001</li>
+                    <li class="select__item">2002</li>
+                    <li class="select__item">2003</li>
+                    <li class="select__item">2003</li>
+                    <li class="select__item">2004</li>
+                    <li class="select__item">2005</li>
+                    <li class="select__item">2006</li>
+                    <li class="select__item">2007</li>
+                </ul>
+            </div>
+
+            <div class="form-item">
+              <input type="text" class="form-input"  value="г.Алматы Турксибский рай-н"
+              readonly>
+              <label class="form-label"> Место проживания</label>
+            </div>
+            <div class="form-item">
+                <input type="text" class="form-input" required>
+                <label class="form-label1">Skype</label>
+              </div>
+              <div class="form-item">
+                <input type="text" class="form-input"  value="vladlena456@bk.ru"
+                readonly>
+                <label class="form-label">E-mail</label>
+              </div>
+          
+
+          </form></center>
+
+          <img class="mt-2 " src="img/Shape 7.png" id="opit">
+          
+          <div class="grid mt-6">
+            <div><div>
+                <input type="checkbox" value="coding" checked/>
+                <label for="coding">БЭМ/OOCSS  </label>
+              </div>
+              <div>
+                <input type="checkbox"  value="music" checked/>
+                <label for="music">  SEO</label>
+              </div>
+              <div>
+                <input type="checkbox"  value="music">
+                <label for="music">  Работаю с SVG</label>
+              </div>
+          </div>
+          <div class="ml"><div>
+            <input type="checkbox" value="coding" checked/>
+            <label for="coding">Верстаю семантично </label>
+          </div>
+          <div>
+            <input type="checkbox"  value="music">
+            <label for="music">ES2015/ES2016</label>
+          </div>
+          <div>
+            <input type="checkbox"  value="music" checked/>
+            <label for="music">PHP</label>
+          </div></div>
+
+          <div><center><div>
+            <input type="checkbox" value="coding" checked/>
+            <label for="coding">Webpack </label>
+          </div>
+          <div>
+            <input type="checkbox"  value="music">
+            <label for="music">jQuery</label>
+          </div>
+          <div>
+            <input type="checkbox"  value="music" checked/>
+            <label for="music"> Ипользую Git</label>
+          </div></center></div>
+        </div>
+
+
+        <img class="mt-5" src="img/icon.png" id="js">
+
+        <p class="info mt-2">Уровень владения JavaScript</p>
+
+        <div class="wrapper mt-2">
+            <div class="scills">
+              <p>Не владею</p>
+              <p>Использую готовые <br> решения</p>
+              <p>Использую готовые решения
+                 <br> и умею и переделывать</p>
+              <p>Пишу сложный JS с нуля</p>
+            </div>
+            <div class="line">
+              <svg viewBox="0 0 600 20" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <mask id="mask">
+                    <rect width="100%" height="100%" fill="#000" />
+                    <path d="M0,20 600,20 600,0z" fill="#fff" />
+                </defs>
+                <rect width="100%" height="100%" fill="#e8e8e8" mask="url(#mask)" />
+                <rect width="250" height="100%" fill="#a698d7" mask="url(#mask)" />
+                <g stroke="#fff" stroke-width="2">
+                  <line x1="100" x2="100" y1="0" y2="20" />
+                  <line x1="250" x2="250" y1="0" y2="20" />
+                  <line x1="470" x2="470" y1="0" y2="20" />
+                </g>
+              </svg>
+            </div>
+          
+            <div class="marker">
+              <svg viewBox="-1 -1 63 68" xmlns="img/Rounded Rectangle 4.svg">
+                <path d="m60 36.151c0 16.569-13.431 30-30 30-16.569 0-30-13.431-30-30 0-14.353 16.155-24.014 23.547-29.304 2.3666-1.694 4.0395-6.8467 6.2549-6.8467 1.9976 0 3.6698 4.7162 6.0363 6.7186 8.9616 7.5825 24.162 14.861 24.162 29.432z" fill="none" stroke="darkblue" stroke-width="0.5" />
+              </svg>
+            </div>
+          </div>
+          <footer class="wow bounceInUp">
+       <img  class="mt-6" src="img/icon@2x.png" id="me">
+       <p class="info mt-2">Расскажите о себе</p>
+       <p class="info2 mt-2">Напишите несколько предложений, чем привлекла наша вакансия<br>
+        и что вы ожидаете от работы у нас.
+        </p>
+        <center><textarea  class="form-input2 mt-3" rows="20" cols="35" name="text">Доброго времени суток!
+
+Меня заинтересовала ваша вакансия возможностью вести работу удаленно. А так-же постоянным развитием. Я работала 3 года Full-stack разработчиком в своем учебном заведении занимаясь официальным сайтом. И накопила достаточно опыта. Так же я много чего умею, и много что еще не знаю. Но если это необходимо для выполнения задачи, я буду знать это в ближайшее время. Знаниями которыми я владею на данный момент:
+     HTML
+     CSS(tailwinds, bootstrap, w3c,grid)
+     js(webpack осваиваю vue.js)
+     PHP
+     GitHub
+     MySQL
+     Seo-Оптимизация(на уровне верстки)
+     Figma
+     Photoshop(на уровне забрать макет)
+     и по мелочам</textarea><br>
+    <button class="mt-5">  <a href="#openModal">Готово</a></button></center>
+   </footer>
+   
+    <div id="openModal" class="modal container">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Оповещение </h3>
+              <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">
+              Ваша заявка успешно отправлена
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="openModal1" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title"><center>МЕНЮ</center> </h3>
+              <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">
+                <a href="#infa"> <div >Личная информация</div></a><br>
+                <a href="#opit"> <div class="grid3_blue ">Опыт</div></a><br>
+                 <a href="#js"> <div class="grid3_blue">JavaScript </div></a><br>
+                     <a href="#openModal1"> <div class="grid3_blue ">О себе</div></a>
+            </div>
+          </div>
+        </div>
+      </div></div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script/script.js"></script>
+<script src="script/wow.min.js"></script>
+  <script>
+    new WOW().init();
+    </script>
+
+
+</html>
